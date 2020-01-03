@@ -2,8 +2,8 @@
 // Copyright 2015 Arcam. See LICENSE file.
 
 #import "UPPEventServer.h"
-#import "GCDWebServerDataRequest.h"
 #import "UPPLastChangeParser.h"
+@import GCDWebServer;
 
 const NSUInteger UPPEventServerPort = 54123;
 NSString * const UPPEventServerSIDKey = @"SID";

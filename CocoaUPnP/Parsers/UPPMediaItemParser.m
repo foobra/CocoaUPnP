@@ -2,11 +2,11 @@
 // Copyright 2015 Arcam. See LICENSE file.
 
 #import "UPPMediaItemParser.h"
-#import "Ono.h"
 #import "UPPMediaItem.h"
 #import "UPPMediaItemResource.h"
 #import "UPPError.h"
 #import "ONOXMLDocument+StringValueOrNil.h"
+@import Ono;
 
 NSString * const UPnPXMLResultsKey = @"Result";
 

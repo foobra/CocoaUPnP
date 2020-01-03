@@ -3,15 +3,15 @@
 
 #import "UPPDeviceParser.h"
 #import "UPPBasicDevice.h"
-#import "Ono.h"
 #import "UPPDeviceIcon.h"
 #import "UPPServiceDescription.h"
 #import "UPPError.h"
-#import "AFHTTPSessionManager.h"
 #import "UPPRequestSerializer.h"
 #import "UPPMediaRendererDevice.h"
 #import "UPPMediaServerDevice.h"
 #import "ONOXMLDocument+StringValueOrNil.h"
+@import Ono;
+@import AFNetworking;
 
 @interface UPPDeviceParser ()
 @property (strong, nonatomic) AFHTTPSessionManager *manager;

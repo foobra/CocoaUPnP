@@ -24,7 +24,7 @@
 
 #import "SSDPServiceBrowser.h"
 
-#import "GCDAsyncUdpSocket.h"
+@import CocoaAsyncSocket;
 #import "SSDPService.h"
 
 #import <ifaddrs.h>
